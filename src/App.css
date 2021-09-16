@@ -5,6 +5,15 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.background {
+    min-height: 700px;
+    background-image: url(../src/Assets/background/background.jpg);
+}
+
 .home, .services, .products, .contact-us, .sign-up, .marketing, .consulting {
     display: flex;
     height: 90vh;
